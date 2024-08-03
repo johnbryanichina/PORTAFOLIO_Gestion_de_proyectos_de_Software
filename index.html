@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshVida | Inicio</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                
+                   
+            
+                <a class="logo" href="index.html">
+                    
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__bold">FreshVida</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Sobre nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <img src="./img/logoFresh.png" id="#logoFresh" alt="FreshVida">
+            <h2 class="no-margin">Comer sano, vivir sano</h2>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Sitio</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/innovador.jpg">
+                        <img loading="lazy" src="img/innovador.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">¿Qué le ofrecemos a nuestros clientes?</h4>
+                    <p> Nuestro emprendimiento “FreshVida” ha sido creado para ofrecer un producto elaborado sin gluten que favorezca al bienestar de la salud de nuestros clientes, el producto va a compensar a las personas que deseen consumir contando con todos los nutrientes debido a que no cuenta con otros insumos químicos, sino que es elaborado de manera natural.</p>
+                    
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/proposito.jpg"  >
+                        <img loading="lazy" src="img/proposito.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Nuestro propósito</h4>
+                    <p>El producto que se va a realizar sustentara el consumo de este almidón libre de gluten ofreciendo beneficios a la salud, cumpliendo con el deseo del consumidor que es adquirir un producto elaborado de manera natural libre de químicos y que de igual manera cumpla con sus necesidades.</p>
+                 
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/achira3.jpg"  >
+                        <img loading="lazy" src="img/achira3.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin"> ¿Qué es el Almidon de Achira?</h4>
+                    <p>
+                        El almidón de achira es un polímero de glucosa natural proveniente de una variedad de plantas o semillas, compuesto principalmente por una fracción molecular lineal (amilosa) y una ramificada (amilopectina), la relación de estos componentes y su organización física dentro de la estructura granular le confiere al almidón propiedades fisicoquímicas y funcionales características.
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Leer más</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Almidón Achira</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Algunos beneficios</h4>
+                     
+                    <p class="widget-curso__label">
+                        <span class="widget-curso__info">Producto que no contiene gluten.</span><br> <span class="widget-curso__info">Fibra dietetica.</span><br> <span class="widget-curso__info">Control de problemas cardiovasculares.</span>
+                    </p>
+                </li>
+
+                <li class="widget-curso">
+                     
+                    <p class="widget-curso__label"> 
+                        <span class="widget-curso__info">Baja en grasas y proteinas</span><br><span class="widget-curso__info">Vitamina A</span><br><span class="widget-curso__info">Digestión saludable</span>
+                    </p>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__bold">FreshVida</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
